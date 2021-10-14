@@ -1,0 +1,40 @@
+body{
+  background-image: url("http://localhost/parag/assets/images/bakg.jpg");
+}
+.row{
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: 80%;
+}
+.col-sm-4{
+  text-align: center;
+  width: auto;
+  border: none;
+}
+.wru{
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 25px;
+  background-color: white;
+  margin: 15px;
+  transition: .7s;
+}
+.wru:hover{
+  margin: 0px;
+  box-shadow: 1px 1px 20px 5px #e1e1e1;
+}
+.col-sm-4 img{
+  width: 80%;
+}
+a{
+  background-color: blue;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  opacity: 0.8;
+}
